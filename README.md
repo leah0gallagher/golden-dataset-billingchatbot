@@ -1,17 +1,11 @@
 # Golden Dataset: Evaluating an LLM-Powered Healthcare Billing Chatbot
 
-A 50-prompt golden dataset and scoring rubric for evaluating how a public LLM handles the role of a healthcare billing chatbot. Built to demonstrate human-in-the-loop AI evaluation in a regulated, HIPAA-adjacent domain.
+A 50-prompt golden dataset and scoring rubric for evaluating how a public LLM handles the role of a healthcare billing chatbot. I built this to demonstrate how I'd go about testing and evaluating AI in a regulated, HIPAA-adjacent domain.
 
 ## Why I built this
 
-My background is in structured, rubric-based QA: designing test cases that
-pair a "should work" scenario with its inverse "should fail/refuse"
-counterpart, tracing where the same underlying logic gets exercised from
-multiple entry points, and catching the failures that look fine on the
-surface but aren't. This project applies that methodology to LLM
-evaluation — using a healthcare billing chatbot as the specific scenario,
-because it's a domain with clear, checkable rules (who can see what, when
-something should be refused, when a system should admit it doesn't know).
+My background is in structured, rubric-based QA: I love designing test cases that
+pair a "should work" scenario with its inverse "should fail" counterpart. My approach for testing starts with mapping out where the same underlying logic shows up in multiple places. This project applies that methodology to LLM evaluation. I'm using a healthcare billing chatbot as the specific scenario because it's a domain with clear rules, and I have background experience in healthcare software. 
 
 The methodology itself isn't tied to this one use case or one specific
 LLM. The same approach — category-based coverage planning, contrast pairs,
