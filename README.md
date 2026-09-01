@@ -8,10 +8,8 @@ My background is in structured, rubric-based QA: I love designing test cases tha
 pair a "should work" scenario with its inverse "should fail" counterpart. My approach for testing starts with mapping out where the same underlying logic shows up in multiple places. This project applies that methodology to LLM evaluation. I'm using a healthcare billing chatbot as the specific scenario because it's a domain with clear rules, and I have background experience in healthcare software. 
 
 The methodology itself isn't tied to this one use case or one specific
-LLM. The same approach — category-based coverage planning, contrast pairs,
-difficulty tiering, and a rubric scored consistently across every
-prompt — applies to evaluating any LLM dropped into any rules-governed
-workflow, not just billing chatbots.
+LLM. The same approach applies to evaluating any LLM dropped into any rules-governed
+workflow.
 
 ## What's in this repo
 
