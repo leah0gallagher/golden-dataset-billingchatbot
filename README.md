@@ -92,4 +92,4 @@ examples. Suggested structure:)*
 
 Built by Leah Gallagher — QA/validation background at Epic Systems
 (healthcare billing, HIPAA/PCI-scoped systems), now applying that
-background to AI evaluation. [LinkedIn link]
+background to AI evaluation. [linkedin.com/in/leahrgallagher]
