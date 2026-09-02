@@ -54,9 +54,10 @@ spreadsheet for the full scoring scale.
 
 Both models were given the identical system-prompt setup and fictional
 patient database (see `fictional_patient_database.md`), then run through
-the same 50 prompts in a single continuous conversation per model. Tested
-in a private/incognito browser window, logged out, to avoid personalization
-or memory from prior sessions.
+the same 50 prompts in a single continuous conversation per model. Each
+model was tested using a dedicated free-tier account created solely for
+this project, with no prior chat history or personalization to skew
+results.
 
 ## Key findings
 
