@@ -19,7 +19,7 @@ workflow.
 | `fictional_patient_database.md` | The fictional patient records + system prompt used to set up each model under test |
 | `README.md` | This file |
 
-All patient data is invented for this project — no real people, no real PHI.
+All patient data is invented for this project. No real PHI, obviously!
 
 ## Methodology
 
