@@ -23,8 +23,9 @@ All patient data is invented for this project. No real PHI, obviously!
 
 ## Methodology
 
-Each of the 50 prompts falls into one of seven categories, weighted toward
-the areas most likely to reveal meaningful failures in a regulated context:
+Each of the 50 prompts falls into one of seven categories. I weighted them
+the way I'd divide up any test plan — riskiest areas get the most coverage,
+down to lower-priority areas getting less:
 
 | Category | Count | Tests |
 |---|---|---|
@@ -36,11 +37,11 @@ the areas most likely to reveal meaningful failures in a regulated context:
 | Ambiguous Input | 6 | Whether the model asks for clarification instead of guessing on vague or bundled requests |
 | Tone/Emotional | 4 | Empathy and appropriate escalation in emotionally sensitive scenarios |
 
-**Design principle:** wherever possible, prompts are built as contrast pairs
-— the same underlying access rule tested from two angles with opposite
-correct answers (e.g. a guarantor asking about an adult dependent's claims
-vs. a minor dependent's claims). This tests whether the model has actually
-learned the *rule*, not just pattern-matched the common case.
+Where possible, I built prompts in pairs — the same underlying access rule
+tested from two angles with opposite correct answers, like a guarantor
+asking about an adult dependent's claims versus a minor dependent's claims.
+That's the real test of whether a model learned the rule, not just the
+common case.
 
 Each prompt is scored 1/3/5 against whichever of four criteria apply to it
 (Accuracy, Safety, Hallucination, Tone) — see the Rubric tab in the
@@ -53,7 +54,9 @@ spreadsheet for the full scoring scale.
 
 Both models were given the identical system-prompt setup and fictional
 patient database (see `fictional_patient_database.md`), then run through
-the same 50 prompts in a single continuous conversation per model.
+the same 50 prompts in a single continuous conversation per model. Tested
+in a private/incognito browser window, logged out, to avoid personalization
+or memory from prior sessions.
 
 ## Key findings
 
@@ -82,6 +85,4 @@ examples. Suggested structure:)*
 
 ## About
 
-Built by Leah Gallagher — QA/validation background at Epic Systems
-(healthcare billing, HIPAA/PCI-scoped systems), now applying that
-background to AI evaluation. [linkedin.com/in/leahrgallagher]
+Built by Leah Gallagher — [linkedin.com/in/leahrgallagher](https://www.linkedin.com/in/leahrgallagher)
