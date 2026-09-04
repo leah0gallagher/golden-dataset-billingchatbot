@@ -15,7 +15,8 @@ workflow.
 
 | File | What it is |
 |---|---|
-| `Golden_Dataset_-_Healthcare_Chat_Results_Sept2026.xlsx` | The 50 test prompts, expected ("gold") answers, scoring rubric, and results |
+| `golden_dataset_template.xlsx` | The blank version of this template, kept as a reusable base if I want to run this same setup on a different scenario later |
+| `golden_dataset_results.xlsx` | The 50 test prompts, expected ("gold") answers, scoring rubric, and results |
 | `fictional_patient_database.md` | The fictional patient records + system prompt used to set up each model under test |
 | `README.md` | This file |
 
